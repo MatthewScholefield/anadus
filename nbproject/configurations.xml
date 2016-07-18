@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="source" displayName="source" projectFiles="true">
+      <itemPath>source/SoundSystem.cpp</itemPath>
+      <itemPath>source/SoundSystem.hpp</itemPath>
+      <itemPath>source/SoundSystem.inl</itemPath>
+      <itemPath>source/main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>source/Phoneme.cpp</itemPath>
+    <itemPath>source/Phoneme.hpp</itemPath>
+    <itemPath>source/PhonemeQueue.cpp</itemPath>
+    <itemPath>source/PhonemeQueue.hpp</itemPath>
+    <itemPath>source/Synthesizer.cpp</itemPath>
+    <itemPath>source/Synthesizer.hpp</itemPath>
+    <itemPath>source/UserData.cpp</itemPath>
+    <itemPath>source/UserData.hpp</itemPath>
+    <itemPath>source/Waveform.cpp</itemPath>
+    <itemPath>source/Waveform.hpp</itemPath>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>source</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>CLang|CLang</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>11</standard>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerOptionItem>`pkg-config --libs portaudio-2.0`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="source/Phoneme.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/Phoneme.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/PhonemeQueue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/PhonemeQueue.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/SoundSystem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/SoundSystem.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/SoundSystem.inl" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/Synthesizer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/Synthesizer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/UserData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/UserData.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/Waveform.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/Waveform.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>CLang|CLang</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>11</standard>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="source/Phoneme.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/Phoneme.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/PhonemeQueue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/PhonemeQueue.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/SoundSystem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/SoundSystem.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/SoundSystem.inl" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/Synthesizer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/Synthesizer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/UserData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/UserData.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/Waveform.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/Waveform.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
